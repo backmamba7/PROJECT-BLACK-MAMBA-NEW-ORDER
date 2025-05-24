@@ -1,0 +1,54 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+
+int main()
+{
+    string name , blah1, word2, blah3, blah4 , enter , part , something;
+    double age , num1, num2 , num3 , number ;
+
+
+  cout<< "PLAYER MAY ENTER HIS NAME: " ;
+  getline(cin, name);
+  cout<<"\n hi " <<name<< " welcome to my 2 projects combined \n";
+  cout<< " \nyou may now enter your age: \n";
+  cin>>age;
+  cout<< "\n OH! YOU are " <<age<< " years old!, pretty young i would say \n" ;
+  cout<< " \n enter your first digit: \n" ;
+  cin>>num1;
+  cout<<"enter second digit: \n";
+  cin>>num2;
+  cout<<"enter final digit: \n ";
+  cin>> num3;
+  cout<<num1 + num2 + num3 << " is your answer!!!!!. yES I DID IT!!!!!!! \n" ;
+
+  cout<< "lets play a madlibs game ye? \n" ;
+  cout<< " ENTER a CONDITION/POOR/SAD/ANGRY: " ;
+  cin.ignore();
+
+  getline(cin, blah1) ;
+
+  cout<< "\n ENTER A FACIAL FEATURE HANDSOME and etc: \n" ;
+  getline(cin , word2);
+  cout<< "ENTER ANY THING LIKE GRUMPY/RUDE/ ANYTHING: " ;
+  getline(cin, blah3);
+  cout<< " \n ENTER ONE (this is crucial) accidental thing which happens like a death/disease/etc: " ;
+    getline(cin , blah4) ;
+  cout<< "\n And A NUMBER too: ";
+  cin>>number;
+  cin.ignore();
+  cout<< "enter something like anything. fruits/veggies/nuggets/balls/etc";
+  getline(cin , something) ;
+  cout<<"enter a body part";
+  getline(cin , part);
+  cout<< "\n cooked up a story, funny/sad idk. type let me see and press ENTER TO view the stroy. \n ";
+  getline(cin, enter) ;
+  cout<< "THERE WAS ONCE A VERY " <<blah1<< " OLD ATHLETHIC MAN.\n" ;
+  cout<< "HE WAS VERY VERY " <<word2<< " in looking \n" ;
+ cout<< "he was also a bit" <<blah3<< "\n" ;
+ cout<< "BUT SUDDENLY ONE FATEFUL DAY!!!!!! A TRUCK-KUN HIT HIM AND HE BECAME "<<blah4<<" with "<<number<<" of fruits on his"<<part ;
+
+     return 0;
+}
